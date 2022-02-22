@@ -1,0 +1,220 @@
+.banner-interno__titulo__icono
+  i
+    color: white !important
+
+.txt--white
+  color: white !important
+.clr--blue
+  color: #259EF5
+
+.fullhg
+  height: 100%
+
+.square--orange
+  width: 20px
+  height: 20px
+  background-color: #FFA726
+
+////////// TEXT UTILITIES ///////////
+
+.cstm--title
+  display: inline-block
+  padding: 0.5rem 1rem
+  background: linear-gradient(90deg, rgba(210,225,241,1) 0%, rgba(255,255,255,1) 100%);
+
+.blackSpace
+  padding: 2rem
+
+.hr--divider 
+  width: 100% 
+  height: 3px
+  margin: 2rem 0
+  background-color: #D2D2D2
+
+
+.t-left
+  text-align: left !important
+
+
+
+////////// IMG UTILITIES /////////
+
+.img90
+  max-width: 90px !important
+.img160
+  max-width: 160px !important
+.img250
+  max-width: 250px !important
+.img350
+  max-width: 350px !important
+.img450
+  max-width: 450px !important
+.img600
+  max-width: 600px !important
+.img900
+  max-width: 900px !important
+
+.imgContainer
+  padding: 2.5rem 1rem
+  background-color: #1565C0
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+
+.bodyContainer
+  padding: 2rem
+  background-color: #DEEDFF
+  text-align: center
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;  
+.table--azul
+  background-color: #1565C0 !important
+
+////// FONDOS ///////
+
+.bg--gradient
+  position: relative
+  padding-bottom: 1rem
+  .row, p, 
+    position: relative
+  &::before
+    content: ""
+    position: absolute
+    top: 0
+    left: 0
+    width: 150%
+    height: 100%
+    margin: 0 -5rem       
+    background: linear-gradient(-180deg, rgba(235,244,253,1) 0%, rgba(255,255,255,1) 100%)
+
+.bg--ligthblue
+  position: relative
+  padding-bottom: 1rem
+  .row, p, 
+    position: relative
+  &::before
+    content: ""
+    position: absolute
+    top: 0
+    left: 0
+    width: 150%
+    height: 100%
+    margin: 0 -5rem   
+    background-color: #EBF4FD
+
+.bg-half--blue
+  position: relative
+  .row,.col, p,.crd 
+    position: relative
+  &::before
+    content: ""
+    position: absolute
+    top: 0
+    left: 0
+    width: 150%
+    height: 50%
+    margin: 0 -5rem   
+    background-color: #EBF4FD
+
+.bg-half--blue_bottom
+  position: relative
+  .row,.col, p,.crd 
+    position: relative
+  &::before
+    content: ""
+    position: absolute
+    bottom: 0
+    left: 0
+    width: 150%
+    height: 50%
+    margin: 0 -5rem   
+    background-color: #EBF4FD
+
+/////// TARJETAS ///////
+.celda
+  padding: 1rem
+  &.celda--rojo
+    background-color: #FF4848
+  &.celda--verde
+    background-color: #26A69A
+  &.celda--azul
+    background-color: #1565C0
+  &.celda--gris
+    background-color: #F6F6F6
+  &.celda-orange
+    background-color: #FFA726  
+
+.crd
+  padding: 2rem
+  &.crd--round
+    border-radius: 25px   
+  &.crd--blue
+    background-color: #4267C5
+  &.crd--yellow
+    background-color: #FAE8B2
+  &.crd--white
+    background-color: white !important
+  &.crd-orange
+    background-color: #FFA726
+  &.crd--shadow  
+    -webkit-box-shadow: 0px 3px 8px 4px rgba(0,0,0,0.1)
+     box-shadow: 0px 3px 8px 4px rgba(0,0,0,0.1)
+
+.crd_container
+  position: relative
+  display: flex 
+  flex-direction: column  
+  align-items: center    
+  height: 100%
+  
+  &::before
+    content: ""
+    position: absolute
+    bottom: 0
+    width: 100%    
+    height: calc(100% - 60px)
+    border-radius: 25px
+    background-color: #F6F6F6  
+    transition: all 1s cubic-bezier(0.5, 1, 0.89, 1)
+    -webkit-box-shadow: 0px 3px 15px 4px rgba(0,0,0,0.26)
+     box-shadow: 0px 3px 15px 4px rgba(0,0,0,0.26)
+  
+  &__icon
+    position: relative
+    width: 110px
+    height: 110px       
+    margin-bottom: 1.5rem
+  &__body
+    position: relative
+    padding: 0 1.5rem
+    margin-bottom: 2rem
+    text-align: center
+
+////////////// BANNERS ///////////////
+
+.banner
+  position: relative
+  padding: 1rem 2rem
+  &.banner--amarillo
+    background-color: #FAE8B2
+  &.banner--azul
+    background-color: #EBF4FD
+    
+    
+
+///////////// CAJONES ////////////////
+.cjn--verde
+  background-color: #CCEAE8
+  &::before
+    background-color: #26A69A
+
+
+/////////// CUSTOM /////////////
+
+.ltD--color
+  .linea-tiempo-d.color-secundario .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
+    background-color: #039BE5
+    color: #fff
+  .linea-tiempo-d__item__content, .linea-tiempo-d__item__number
+    background-color: white 
+
+  
