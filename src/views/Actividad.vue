@@ -33,7 +33,7 @@
         .tarjeta.tarjeta--azul.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
-              p.fw-bold.mb-0 Cuestionario de selección múltiple
+              p.fw-bold.mb-0 Cuestionario de selección múltiple.
             .col-auto
               a.boton.boton--b(:href="obtenerLink('/actividades/actividad_02/story.html')" target="_blank")
                 span Realizar
