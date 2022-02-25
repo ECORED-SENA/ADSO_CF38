@@ -5,9 +5,9 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span.txt--white 1
-      h1 Generalidades de las pruebas de software
+      h1 Generalidades de las pruebas de #[i software]
 
-    p Las pruebas software son parte fundamental del proceso de calidad y adopción de buenas prácticas, estas deben realizarse en todo el proceso de desarrollo de software, de acuerdo con Mera (2016) este proceso debe incluir:
+    p Las pruebas #[i software] son parte fundamental del proceso de calidad y adopción de buenas prácticas, estas deben realizarse en todo el proceso de desarrollo de #[i software], de acuerdo con Mera (2016) este proceso debe incluir:
 
     .bg--ligthblue
       .row.position-relative.py-5
@@ -91,8 +91,8 @@
                 img(src="@/assets/curso/tema1/t6.svg", alt="alt").m-auto.img350
             .col-md-12.col-xl-8
               h4 Según la organización ISO (2020):
-              p Estas pruebas se regulan por la norma ISO/IEC 25000 Sistemas y Requisitos de Calidad y Evaluación de Software (SQuaRE). 
-              p Pruebas de software aplicables a todos aquellos que deseen crear: 
+              p Estas pruebas se regulan por la norma ISO/IEC 25000 Sistemas y Requisitos de Calidad y Evaluación de #[i software] (SQuaRE). 
+              p Pruebas de #[i software] aplicables a todos aquellos que deseen crear: 
               ul.lista-ul
                 li 
                   i.fas.fa-angle-right.clr--blue
