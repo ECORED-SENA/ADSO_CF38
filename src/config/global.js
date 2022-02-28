@@ -1,8 +1,8 @@
 export default {
   global: {
-    componenteFormativo: 'Las pruebas de software',
+    componenteFormativo: 'Las pruebas de <i>software</i>',
     descripcionCurso:
-      'En el presente componente formativo se conocerá el grupo de actividades enfocadas en encontrar los posibles fallos en el funcionamiento un software.',
+      'En el presente componente formativo se conocerá el grupo de actividades enfocadas en encontrar los posibles fallos en el funcionamiento un <i>software</i>.',
     imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
   },
@@ -23,7 +23,7 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Generalidades de las pruebas de software',
+        titulo: 'Generalidades de las pruebas de <i>software</i>',
         desarrolloContenidos: true,
       },
       {

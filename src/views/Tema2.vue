@@ -331,66 +331,71 @@
 
     .row.justify-content-center
       .col-lg-7
+        
         AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
-          .row(titulo="Pruebas funcionales")            
-            ul.lista-ul.ps-5
-              li 
+          .row(titulo="Pruebas funcionales")                
+            ul.list--cs.mb-2
+              li
                 i.fas.fa-angle-right.clr--blue
                 | Optimiza las funcionalidades y la calidad del producto.
               li 
                 i.fas.fa-angle-right.clr--blue
-                | Verifica que la seguridad y la arquitectura sean las adecuadas.  
+                | Verifica que la seguridad y la arquitectura sean las adecuadas.
               li 
                 i.fas.fa-angle-right.clr--blue
-                | Asegura que el comportamiento del #[i software] y de todas sus funciones sea el esperado.
+                | Asegura que el comportamiento del <em>software</em> y de todas sus funciones sea el esperado.
               li 
                 i.fas.fa-angle-right.clr--blue
-                | Se asegura que el #[i software] o aplicación está libre de errores.
+                | Se asegura que el <em>software</em> o aplicación está libre de errores.
 
-          .row(titulo="Pruebas unitarias")            
-            ul.lista-ul.ps-5
-              li 
+          .row(titulo="Pruebas unitarias")    
+            ul.list--cs.mb-2
+              li
                 i.fas.fa-angle-right.clr--blue
                 | Simplifica la integración y permite una buena documentación.
-              li 
+              li
                 i.fas.fa-angle-right.clr--blue
                 | Funciona con el  proceso de desarrollo ágil.
-              li 
+              li
                 i.fas.fa-angle-right.clr--blue
                 | Detección temprana de errores en sus funcionalidades lo que minimiza tiempo y costos.
-              li 
+              li
                 i.fas.fa-angle-right.clr--blue
                 | Optimiza la efectividad del código.
+           
 
-          .row(titulo=" Pruebas de integración")            
-            ul.lista-ul.ps-5
-              li 
+          .row(titulo=" Pruebas de integración")     
+            ul.list--cs.mb-2
+              li
                 i.fas.fa-angle-right.clr--blue
                 | Detalla los errores y conflictos en cada módulo y en sus conexiones.
-              li 
+              li
                 i.fas.fa-angle-right.clr--blue
                 | Mejora la calidad del código.
-              li 
+              li
                 i.fas.fa-angle-right.clr--blue
-                | Garantiza que las funciones del #[i software] serán confiables y estables entres sus módulos.
-              li 
+                | Garantiza que las funciones del <em>software</em> serán confiables y estables entres sus módulos.
+              li
                 i.fas.fa-angle-right.clr--blue
-                | Garantiza que todos los módulos del #[i software] estén correctamente integrados y funcionen en conjunto como se necesita.
+                | Garantiza que todos los módulos del <em>software</em> estén correctamente integrados y funcionen en conjunto como se necesita.
+            
 
-          .row(titulo="Pruebas de Rendimiento")            
-            ul.lista-ul.ps-5
-              li 
+          .row(titulo="Pruebas de Rendimiento")       
+            ul.list--cs.mb-2
+              li
                 i.fas.fa-angle-right.clr--blue
-                | Mejora las características del #[i software] o aplicación perfeccionando el sistema.
-              li 
+                | Mejora las características del <em>software</em> o aplicación perfeccionando el sistema.
+              li
                 i.fas.fa-angle-right.clr--blue
                 | Identifica errores que no se detectan en las pruebas funcionales.
-              li 
+              li
                 i.fas.fa-angle-right.clr--blue
-                | Localiza los cuellos de botella para solucionarlos y optimizar su rendimiento
-              li 
+                | Localiza los cuellos de botella para solucionarlos y optimizar su rendimiento.
+              li
                 i.fas.fa-angle-right.clr--blue
-                | Valora la escalabilidad y velocidad de la aplicación o #[i website].
+                | Valora la escalabilidad y velocidad de la aplicación o <em>website.</em>    
+                     
+            
 
       .col-lg-5
         figure(data-aos="flip-right")
