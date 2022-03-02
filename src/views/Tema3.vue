@@ -7,7 +7,7 @@
         span.txt--white 3
       h1 Los casos de pruebas
 
-    p.mb-5 Son los documentos de los productos que se generan al momento de realizar una prueba de #[i software], en el cual se plasma las precondiciones entradas y resultados esperados, incluyendo la implementación correcta, la identificación de errores, el chequeo de la calidad y otras informaciones consideradas importantes, en general no hay una plantilla especifica solo la bitácora, listas de chequeo, e imágenes en la cual se registran las no conformidades que se encuentran en las pruebas (ver figura 3).
+    p.mb-5 Son los documentos de los productos que se generan al momento de realizar una prueba de #[i software], en el cual se plasma las precondiciones entradas y resultados esperados, incluyendo la implementación correcta, la identificación de errores, el chequeo de la calidad y otras informaciones consideradas importantes, en general no hay una plantilla específica solo la bitácora, listas de chequeo, e imágenes en la cual se registran las no conformidades que se encuentran en las pruebas (ver figura 3).
 
     .row.justify-content-center.mb-5  
       .col-auto
@@ -26,6 +26,10 @@
         .col
           p En el diseño de las pruebas de #[i software] se deben identificar y describir casos de prueba, por lo tanto para documentar un caso de pruebas se debe comprender que este contiene un conjunto de variables o condiciones en la cual un #[i tester] determina si un sistema funciona según lo esperado; así mismo, cabe resaltar que la documentación de un caso de prueba se convierte en una actividad sin dificultad, si se tiene la información necesaria para su proceso de elaboración, teniendo en cuenta que al momento de probar un #[i software] es de mucho aporte, puesto que se transforma en una herramienta esencial en el proceso de registro, seguimiento y control.
           p A continuación, se nombran los elementos principales que debe contener un caso de prueba (ver tabla 1): 
+
+    .titulo-sexto.color-acento-contenido
+      h5 Tabla 1. 
+      span Elementos de un caso de prueba
 
     tabla-b.my-5
       .tabla-b__header.table--azul

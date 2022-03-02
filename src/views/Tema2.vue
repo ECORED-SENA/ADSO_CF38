@@ -103,7 +103,7 @@
         .col 
           h3.mb-0 Pruebas unitarias
 
-    p.mb-5 Las pruebas unitarias o como también se las conocen “#[i Unit testing]”, son pequeños #[i tests] en los cuales se revisa que el comportamiento de un objeto y su lógica funcionen adecuadamente. Por lo general se realiza durante la fase de desarrollo de la aplicaciones o #[i software], esta es ejecutada por los programadores, aunque también pueden realizarlas los aseguradores de calidad.
+    p.mb-5 Las pruebas unitarias o como también se las conocen “#[i Unit testing]”, son pequeños #[i tests] en los cuales se revisa que el comportamiento de un objeto y su lógica funcionen adecuadamente. Por lo general se realiza durante la fase de desarrollo de las aplicaciones o #[i software], esta es ejecutada por los programadores, aunque también pueden realizarlas los aseguradores de calidad.
 
     .row.justify-content-center.mb-5
       .col-lg-5
@@ -402,7 +402,7 @@
           img(src="@/assets/curso/tema2/t2_23.svg", alt="alt").m-auto.img350
 
     h3.mb-5 Desventajas de estos tipos de pruebas:
-    p Por lo general, todas las pruebas de #[i software] traen beneficios al desarrollador, dependiendo del tipo de la prueba los beneficios pueden ser más altos y enfocados en un fin o propósito especifico, dando como resultado una mejor calidad de producto, mejorando su funcionalidad, reduciendo costos, tiempos, recursos humanos y mejorando la experiencia del usuario.
+    p Por lo general, todas las pruebas de #[i software] traen beneficios al desarrollador, dependiendo del tipo de la prueba los beneficios pueden ser más altos y enfocados en un fin o propósito específico, dando como resultado una mejor calidad de producto, mejorando su funcionalidad, reduciendo costos, tiempos, recursos humanos y mejorando la experiencia del usuario.
     p.mb-5 Se podría considerar como una desventaja, si se comparan los tipos de prueba ya que puede variar en:
 
 
